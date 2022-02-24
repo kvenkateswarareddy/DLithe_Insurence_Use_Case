@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+            body {
+            font-family: 'Lato', sans-serif;
+            }
+            .wrapper {
+            padding-top: 120px;
+            }
+            .card-body{
+                text-align: center;
+                box-shadow: 0px 15px 15px -8px rgba(197, 102, 102, 0.5)
+            }
+            .card-body h6 {
+            font-size: 18px;
+        
+            }
+            .card-title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 24px;
+            }
+
+            
+
+            @media (max-width: 800px){
+                .mx-30{
+                    margin-bottom: 80px;
+                }
+            }
+            .left{ 
+            width: 33%; 
+            float: left; 
+            } 
+            .right{ 
+            width: 33%; 
+            float: right;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="wrapper">
+            <h5 class="card-title" style="text-align: center;">Create Policy</h5>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mx-50" style="width: 120ch;">
+                        <div class="card-body">
+                            
+                            
+                            <div class="left">
+								<h6>Base Plan</h6>	<br>
+                                <h6>Cover Amount</h6> <br>
+                                <h6>Policy Period</h6>
+                            </div>
+                            <div class="right">
+								
+                                <h6>Rs.1000</h6><br>
+                                <h6>Rs.5Lack</h6><br>
+                                <select id="year" name="years">
+                                <option value="1 Year">1 Year</option>
+                                <option value="3 Year"> 3 Year</option>
+                                <option value="5 Year">5 Year</option>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
